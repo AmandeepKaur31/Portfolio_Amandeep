@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta cahrset="UTF-8">
+
+<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+<title>Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body vlink="white">
+
+<header>
+
+<div class="container">
+
+<nav class="flex items-center justify-between">
+
+<div class="left flex items-center">
+
+<div class="social">
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Professional Journey</a>
+<a href="#work">Personal Journey</a>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<button class="btn btn-primary"><a style="text-decoration:none", href="#contact">Contact</a></button>
+
+</div>
+
+</nav>
+
+<div class="hero flex items-center justify-between">
+
+<div class="left flex-1 flex justify-center">
+
+<img src="./images/frontimg.jpeg">
+
+</div>
+
+<div class="right flex-1">
+
+<h6>Amandeep Kaur</h6>
+<h1>I'm a Creative <br><span>Designer</span></h1>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section id="about" class="about">
+
+<div class="container flex ">
+
+<div class="flex-1">
+<img class="about-me-img" src="./images/smiley.jpeg" alt="" >
+</div>
+
+<div class="flex-1">
+<h1>About <span>Me</span></h1>
+<h3>Hello! I'm Amandeep Kaur.</h3>
+<p> I'm from Delhi, I did Diploma in Computer Application and Programming (DCAP) form Indian Institute of Computer Science (IICS) and I'm pursuing B.sc (Hns.) Computer Science from SGTB Khalsa College. As a person I like creative things and I'm available for customized work. As a career I'm interested in web-designing and any creative work. I have many skills to contribute including HTML, CSS. I'm available for freelancing also. I like to do typing and my speed is 40 wpm. I'm looking for an internship to gain a better understanding of web-designing.</p>
+
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services" class="services">
+
+<div class="container">
+
+<h1 class="section-heading"><span>Professional</span> Journey</h1>
+<p>Qualification</p>
+
+<div class="card-wrapper">
+
+<div class="card">
+
+<h2>Institute / University</h2>
+<p style="color:white"><a href="https://www.iicsindia.com/" style="text-decoration:none">Indian Institute of Computer Science, Nirman Vihar</a></p><br>
+<p style="color:white"><a href="https://sgtbkhalsadu.ac.in/" style="text-decoration:none">Shri Guru Tegh Bhadur Khalsa College, North Campus, DU</a></p>
+
+</div>
+
+<div class="card">
+
+<h2>Academic Qualification</h2>
+<p style="color:white"><a href="dcap.html" style="text-decoration:none">Diploma in Computer Application and Programming (DCAP)</a></p><br>
+<p style="color:white"><a href="cs.html" style="text-decoration:none">B.sc (Hns.) Computer Science</a></p>
+
+</div>
+
+<div class="card">
+
+<h2>Technical Skills</h2>
+
+<p style="color:white">IT, C, HTML, Photoshop</p>
+<p style="color:white">C++, Java Script, CSS, R, My SQL</p><br>
+<p style="color:white"><a href="skills.html" style="text-decoration:none">Tap Here</a> for more details</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+<section class="freelancer">
+
+<h1>I am available for freelancer.</h1>
+<p>I provide you a good high quality website.</p>
+
+
+</section>
+
+<section id="work" class="work">
+
+<div class="container">
+
+<h1 class="section-heading"><span>Personal</span> Journey</h1>
+<p>I have some artistic skills and I'm available for customized work (like sketch, painting, hand-made gifts) also.</p>
+
+<div class="card-wrapper">
+
+<div class="card">
+<img class="Amandeep" src="./images/Amandeep.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="card">
+<img class="Amandeep" src="./images/polaroid.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="card">
+<img width="100%" class="Amandeep" src="./images/girl.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="card">
+<img width="100%" class="Amandeep" src="./images/girlsketch.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="card">
+<img class="Amandeep" src="./images/paintingface.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+<div class="card">
+<img class="Amandeep" src="./images/sketch.jpeg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+</div>
+
+</div>
+
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+
+</section>
+
+<section clas id="blog" class="blog">
+
+<div class="container">
+
+<div class="card-wrapper">
+
+<div class="card">
+
+<div class="img-wrapper">
+<img class="image" src="./images/mrbean.jpeg"  alt="" >
+
+</div>
+
+<div class="card-content">
+<h1><a href = "./images/mrbean.jpeg">Mr. Bean</a></h1>
+
+<p>I think the character does tend to suit an episodic thing, because what's fun about him is that he doesn't care about anyone else, and it's very difficult for a main character - a lead character - in a movie to not care about anyone else .
+MR. BEAN -- A perfect example for being yourself</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="img-wrapper">
+<img class="image" src="./images/joker.jpeg"  alt="">
+</div>
+
+<div class="card-content">
+<h1><a href = "./images/joker.jpeg">Joker</a></h1>
+
+<p> The Joker is one of the most infamous criminals within Gotham City, and he gives Batman a run for his money. He exploits Batman’s weaknesses and pushes him to the limits. Though the Batman has sworn never to kill, the Joker makes him want to break this rule more than once.</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="img-wrapper">
+<img class="image" src="./images/charlie.jpeg"  alt="">
+</div>
+
+<div class="card-content">
+<h1><a href = "./images/charlie.jpeg">Charlie Chaplin</a></h1>
+
+<p>Famously known as the man sporting the truly iconic toothbrush mustache, bowler hat, and cane, Charlie Chaplin is one of the most influential figures in motion pictures, particularly the silent film era. 🎥🎬
+
+“ There are more valid facts and details in works of art than there are in history books. ”
+-- Charlie Chaplin</p>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<h1 class="section-heading">Contact <span>Details<span></h1>
+<p>I provide you good quality work.</p>
+
+<div class="card-wrapper">
+
+<div class="card">
+<img src="./images/phone.png" alt="" >
+<h1>Call Me On<h1>
+<h6>8766355803</h6>
+</div>
+
+<div class="card">
+<img src="./images/mail1.png" alt="">
+<h1>Mail me at<h1>
+<h6>alluringart31@gmail.com</h6>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+</body>
+
+</html>
+
